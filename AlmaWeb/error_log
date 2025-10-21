@@ -1,0 +1,11 @@
+[07-Oct-2025 09:46:17 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tugaspabw/public_html/2414101031.tugaspabw.site/db.php on line 7
+[07-Oct-2025 09:46:37 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tugaspabw/public_html/2414101031.tugaspabw.site/db.php on line 7
+[07-Oct-2025 09:46:51 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tugaspabw/public_html/2414101031.tugaspabw.site/db.php on line 7
+[07-Oct-2025 09:46:54 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tugaspabw/public_html/2414101031.tugaspabw.site/db.php on line 7
+[07-Oct-2025 09:46:56 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tugaspabw/public_html/2414101031.tugaspabw.site/db.php on line 7
+[07-Oct-2025 09:47:14 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tugaspabw/public_html/2414101031.tugaspabw.site/db.php on line 7
+[07-Oct-2025 09:47:46 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tugaspabw/public_html/2414101031.tugaspabw.site/db.php on line 7
+[07-Oct-2025 09:48:01 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tugaspabw/public_html/2414101031.tugaspabw.site/db.php on line 7
+[07-Oct-2025 09:48:02 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tugaspabw/public_html/2414101031.tugaspabw.site/db.php on line 7
+[07-Oct-2025 09:48:02 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tugaspabw/public_html/2414101031.tugaspabw.site/db.php on line 7
+[07-Oct-2025 09:48:04 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tugaspabw/public_html/2414101031.tugaspabw.site/db.php on line 7
