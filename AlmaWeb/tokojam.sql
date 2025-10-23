@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `tokojam`
+-- Database: `tokoboneka`
 --
 
 -- --------------------------------------------------------
@@ -27,23 +27,27 @@ SET time_zone = "+00:00";
 -- Struktur dari tabel `produk`
 --
 
-CREATE TABLE `produk` (
-  `id` int(11) NOT NULL,
-  `nama` varchar(50) NOT NULL,
-  `harga` decimal(10,0) NOT NULL,
-  `gambar` varchar(500) NOT NULL,
-  `created_at` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE produk (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nama VARCHAR(100) NOT NULL,
+  harga INT NOT NULL,
+  gambar VARCHAR(255) NOT NULL
+);
 
 --
 -- Dumping data untuk tabel `produk`
 --
 
-INSERT INTO `produk` (`id`, `nama`, `harga`, `gambar`, `created_at`) VALUES
-(2, 'jam2', 50, 'img2.jpg', '2025-10-03 17:07:38'),
-(3, 'jam', 10000, 'img1.jpg', '2025-10-07 15:57:18'),
-(4, 'jam3', 25000, 'img3.jpg', '2025-10-07 16:05:50'),
-(5, 'jam4', 20, 'img4.jpg', '2025-10-07 16:07:16');
+INSERT INTO produk (nama, harga, gambar) VALUES
+('Boneka gajah', 85000, 'img1.jpeg'),
+('Boneka penguin coklat', 72000, 'img2.jpeg'),
+('Boneka teddy', 90000, 'img3.jpeg'),
+('Boneka singa', 78000, 'img4.jpeg'),
+('Boneka anjing laut', 95000, 'img5.jpeg'),
+('Boneka penguin hijau', 80000, 'img6.jpeg'),
+('Boneka capybara', 88000, 'img7.jpeg'),
+('Boneka panda', 93000, 'img8.jpeg');
+
 
 --
 -- Indexes for dumped tables
