@@ -1,0 +1,208 @@
+/* ===============================
+   RESET & GLOBAL
+================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6fb;
+  color: #333;
+}
+
+/* ===============================
+   HEADER
+================================ */
+header {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: #fff;
+  padding: 25px 15px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* ===============================
+   NAV MENU
+================================ */
+.menu {
+  margin-top: 12px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   CONTAINER
+================================ */
+.page-center {
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+/* ===============================
+   CARD CONTAINER
+================================ */
+.table-card {
+  background: white;
+  width: 100%;
+  max-width: 1100px;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.table-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* ===============================
+   TABLE (DESKTOP)
+================================ */
+.table-responsive {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px;
+  font-size: 14px;
+}
+
+table th {
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+}
+
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+table tr:hover {
+  background: #eef2ff;
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+.btn-edit,
+.btn-hapus {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+.btn-edit {
+  background: #22c55e;
+}
+
+.btn-edit:hover {
+  background: #16a34a;
+}
+
+.btn-hapus {
+  background: #ef4444;
+}
+
+.btn-hapus:hover {
+  background: #dc2626;
+}
+
+/* ===============================
+   FOOTER
+================================ */
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  text-align: center;
+  font-size: 13px;
+  background: #e5e7eb;
+}
+
+/* ===============================
+   MOBILE VIEW → CARD STYLE
+================================ */
+@media (max-width: 768px) {
+
+  table,
+  thead {
+    display: none;
+  }
+
+  .table-responsive::after {
+    content: "";
+    display: block;
+  }
+
+  tbody tr {
+    display: block;
+    background: white;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  }
+
+  tbody td {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border: none;
+    font-size: 14px;
+  }
+
+  tbody td::before {
+    font-weight: bold;
+    color: #1e40af;
+  }
+
+  tbody td:nth-child(1)::before { content: "No"; }
+  tbody td:nth-child(2)::before { content: "Nama"; }
+  tbody td:nth-child(3)::before { content: "No HP"; }
+  tbody td:nth-child(4)::before { content: "Paket"; }
+  tbody td:nth-child(5)::before { content: "Tanggal"; }
+  tbody td:nth-child(6)::before { content: "Hari"; }
+  tbody td:nth-child(7)::before { content: "Peserta"; }
+  tbody td:nth-child(8)::before { content: "Total"; }
+  tbody td:nth-child(9)::before { content: "Aksi"; }
+
+  .btn-edit,
+  .btn-hapus {
+    width: 48%;
+    text-align: center;
+  }
+}
